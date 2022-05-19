@@ -11,6 +11,8 @@
 		CC06F895283675930071966F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F894283675930071966F /* ContentView.swift */; };
 		CC06F897283675940071966F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC06F896283675940071966F /* Assets.xcassets */; };
 		CC06F89A283675940071966F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC06F899283675940071966F /* Preview Assets.xcassets */; };
+		CC06F8A1283686E50071966F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A0283686E50071966F /* TextView.swift */; };
+		CC06F8A32836FCB90071966F /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A22836FCB90071966F /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CC06F894283675930071966F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC06F896283675940071966F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC06F899283675940071966F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC06F8A0283686E50071966F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		CC06F8A22836FCB90071966F /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CC06F892283675930071966F /* studing_swiftUIApp.swift */,
 				CC06F894283675930071966F /* ContentView.swift */,
+				CC06F8A0283686E50071966F /* TextView.swift */,
+				CC06F8A22836FCB90071966F /* ShapeView.swift */,
 				CC06F896283675940071966F /* Assets.xcassets */,
 				CC06F898283675940071966F /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC06F895283675930071966F /* ContentView.swift in Sources */,
+				CC06F8A1283686E50071966F /* TextView.swift in Sources */,
+				CC06F8A32836FCB90071966F /* ShapeView.swift in Sources */,
 				CC06F893283675930071966F /* studing_swiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
