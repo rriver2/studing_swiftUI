@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+
+// 색상 추가
+extension Color {
+    static let customColor = Color("CustomColor")
+}
+
 struct ColorView: View {
     var body: some View {
         VStack{
@@ -43,7 +49,7 @@ struct ColorView: View {
                 .fill(
                     // 􀄷 Custom Color (Assets)
                     // Light & Dark mode
-                    Color("CustomColor")
+                    Color.customColo
                 )
                 .frame(width: 200, height: 100)
                 // 􀄷 그림자
@@ -57,6 +63,5 @@ struct ColorView: View {
 struct ColorView_Previews: PreviewProvider {
     static var previews: some View {
         ColorView()
-            
     }
 }
