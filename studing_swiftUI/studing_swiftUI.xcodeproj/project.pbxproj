@@ -14,6 +14,8 @@
 		CC06F8A1283686E50071966F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A0283686E50071966F /* TextView.swift */; };
 		CC06F8A32836FCB90071966F /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A22836FCB90071966F /* ShapeView.swift */; };
 		CC06F8A52837057C0071966F /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A42837057C0071966F /* ColorView.swift */; };
+		CC91950E283AF3F200B6667A /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91950D283AF3F200B6667A /* GradientsView.swift */; };
+		CC919510283AF8F600B6667A /* SystemIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91950F283AF8F600B6667A /* SystemIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CC06F8A0283686E50071966F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CC06F8A22836FCB90071966F /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		CC06F8A42837057C0071966F /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		CC91950D283AF3F200B6667A /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
+		CC91950F283AF8F600B6667A /* SystemIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				CC06F894283675930071966F /* ContentView.swift */,
 				CC06F8A0283686E50071966F /* TextView.swift */,
 				CC06F8A22836FCB90071966F /* ShapeView.swift */,
+				CC91950D283AF3F200B6667A /* GradientsView.swift */,
+				CC91950F283AF8F600B6667A /* SystemIconView.swift */,
 				CC06F8A42837057C0071966F /* ColorView.swift */,
 				CC06F896283675940071966F /* Assets.xcassets */,
 				CC06F898283675940071966F /* Preview Content */,
@@ -148,8 +154,10 @@
 			files = (
 				CC06F895283675930071966F /* ContentView.swift in Sources */,
 				CC06F8A1283686E50071966F /* TextView.swift in Sources */,
+				CC919510283AF8F600B6667A /* SystemIconView.swift in Sources */,
 				CC06F8A32836FCB90071966F /* ShapeView.swift in Sources */,
 				CC06F893283675930071966F /* studing_swiftUIApp.swift in Sources */,
+				CC91950E283AF3F200B6667A /* GradientsView.swift in Sources */,
 				CC06F8A52837057C0071966F /* ColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

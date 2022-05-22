@@ -49,7 +49,7 @@ struct ColorView: View {
                 .fill(
                     // 􀄷 Custom Color (Assets)
                     // Light & Dark mode
-                    Color.customColo
+                    Color.customColor
                 )
                 .frame(width: 200, height: 100)
                 // 􀄷 그림자
