@@ -22,7 +22,6 @@ struct LandmarkDetail: View {
                 MapView(coordinate: landmark.locationCoordinate)
                     .ignoresSafeArea(edges: .top)
                     .frame(height: 300)
-                FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
             }
             
             CircleImage(image: landmark.image)
@@ -30,9 +29,11 @@ struct LandmarkDetail: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
-                
+                HStack{
+                    Text("Turtle Rock")
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                }
                 HStack {
                     Text("Joshua Tree National Park")
                     Spacer()

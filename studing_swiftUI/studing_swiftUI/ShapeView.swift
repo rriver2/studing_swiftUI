@@ -13,7 +13,7 @@ struct ShapeView: View {
             //  + Circle에서 알아봤던 modifier는 shape에서 모두 사용 가능
             Circle()
             // 􀄷 circle 안에 색 추가하는 방법 2가지
-                .fill(Color.green)
+                .fill(Color(#colorLiteral(red: 0.4947351813, green: 0.814071238, blue: 0.6122030616, alpha: 1)))
                 .foregroundColor(Color.green)
             
             Circle()
