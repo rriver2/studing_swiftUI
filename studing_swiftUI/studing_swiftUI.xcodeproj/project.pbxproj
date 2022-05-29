@@ -14,12 +14,13 @@
 		CC06F8A1283686E50071966F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A0283686E50071966F /* TextView.swift */; };
 		CC06F8A32836FCB90071966F /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A22836FCB90071966F /* ShapeView.swift */; };
 		CC06F8A52837057C0071966F /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06F8A42837057C0071966F /* ColorView.swift */; };
+		CC8B6F712843B38C001260A1 /* VStack_ZStack_HStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B6F702843B38C001260A1 /* VStack_ZStack_HStack.swift */; };
 		CC91950E283AF3F200B6667A /* GradientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91950D283AF3F200B6667A /* GradientsView.swift */; };
 		CC919510283AF8F600B6667A /* SystemIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC91950F283AF8F600B6667A /* SystemIconView.swift */; };
 		CC976BFA283CD346000C82B4 /* ViewModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976BF9283CD346000C82B4 /* ViewModifierView.swift */; };
 		CC976BFD283CD649000C82B4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976BFC283CD649000C82B4 /* ImageView.swift */; };
 		CC976BFF283CD9FE000C82B4 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976BFE283CD9FE000C82B4 /* FrameView.swift */; };
-		CC976C01283D12EB000C82B4 /* BackroundAndOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976C00283D12EB000C82B4 /* BackroundAndOverlayView.swift */; };
+		CC976C01283D12EB000C82B4 /* Backround_OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */; };
 		CCDF1460283E687E0001BDCF /* RiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF145F283E687E0001BDCF /* RiverViewModel.swift */; };
 		CCDF1462283E688A0001BDCF /* Input_Event_Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF1461283E688A0001BDCF /* Input_Event_Modifiers.swift */; };
 		CCDF1464283E68970001BDCF /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF1463283E68970001BDCF /* EnvironmentObject.swift */; };
@@ -36,12 +37,13 @@
 		CC06F8A0283686E50071966F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		CC06F8A22836FCB90071966F /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		CC06F8A42837057C0071966F /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		CC8B6F702843B38C001260A1 /* VStack_ZStack_HStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_ZStack_HStack.swift; sourceTree = "<group>"; };
 		CC91950D283AF3F200B6667A /* GradientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsView.swift; sourceTree = "<group>"; };
 		CC91950F283AF8F600B6667A /* SystemIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconView.swift; sourceTree = "<group>"; };
 		CC976BF9283CD346000C82B4 /* ViewModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierView.swift; sourceTree = "<group>"; };
 		CC976BFC283CD649000C82B4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		CC976BFE283CD9FE000C82B4 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
-		CC976C00283D12EB000C82B4 /* BackroundAndOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackroundAndOverlayView.swift; sourceTree = "<group>"; };
+		CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backround_OverlayView.swift; sourceTree = "<group>"; };
 		CCDF145F283E687E0001BDCF /* RiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverViewModel.swift; sourceTree = "<group>"; };
 		CCDF1461283E688A0001BDCF /* Input_Event_Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_Event_Modifiers.swift; sourceTree = "<group>"; };
 		CCDF1463283E68970001BDCF /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
@@ -88,7 +90,8 @@
 				CC06F8A42837057C0071966F /* ColorView.swift */,
 				CC976BFE283CD9FE000C82B4 /* FrameView.swift */,
 				CC976BFC283CD649000C82B4 /* ImageView.swift */,
-				CC976C00283D12EB000C82B4 /* BackroundAndOverlayView.swift */,
+				CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */,
+				CC8B6F702843B38C001260A1 /* VStack_ZStack_HStack.swift */,
 				CC976BFB283CD5E0000C82B4 /* AddLearning */,
 				CC06F896283675940071966F /* Assets.xcassets */,
 				CC06F898283675940071966F /* Preview Content */,
@@ -209,8 +212,9 @@
 				CCDF1460283E687E0001BDCF /* RiverViewModel.swift in Sources */,
 				CC976BFA283CD346000C82B4 /* ViewModifierView.swift in Sources */,
 				CC976BFF283CD9FE000C82B4 /* FrameView.swift in Sources */,
-				CC976C01283D12EB000C82B4 /* BackroundAndOverlayView.swift in Sources */,
+				CC976C01283D12EB000C82B4 /* Backround_OverlayView.swift in Sources */,
 				CC06F8A52837057C0071966F /* ColorView.swift in Sources */,
+				CC8B6F712843B38C001260A1 /* VStack_ZStack_HStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
