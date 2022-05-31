@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Backround_OverlayView.swift: View {
+struct Backround_OverlayView: View {
     var body: some View {
         VStack{
             // View -> Color, Screen, Text, Shape, gradient ...
@@ -83,8 +83,8 @@ struct Backround_OverlayView.swift: View {
     }
 }
 
-struct Backround_OverlayView.swift_Previews: PreviewProvider {
+struct Backround_OverlayView_Previews: PreviewProvider {
     static var previews: some View {
-        BackroundAndOverlayView()
+        Backround_OverlayView()
     }
 }

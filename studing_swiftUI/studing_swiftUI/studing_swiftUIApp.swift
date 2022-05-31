@@ -11,7 +11,7 @@ import SwiftUI
 struct studing_swiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack_ZStack_HStack()
         }
     }
 }

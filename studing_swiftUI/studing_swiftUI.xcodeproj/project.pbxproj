@@ -21,6 +21,7 @@
 		CC976BFD283CD649000C82B4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976BFC283CD649000C82B4 /* ImageView.swift */; };
 		CC976BFF283CD9FE000C82B4 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976BFE283CD9FE000C82B4 /* FrameView.swift */; };
 		CC976C01283D12EB000C82B4 /* Backround_OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */; };
+		CCAD83B928465C0D00044A79 /* Pading_SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD83B828465C0D00044A79 /* Pading_SpacerView.swift */; };
 		CCDF1460283E687E0001BDCF /* RiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF145F283E687E0001BDCF /* RiverViewModel.swift */; };
 		CCDF1462283E688A0001BDCF /* Input_Event_Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF1461283E688A0001BDCF /* Input_Event_Modifiers.swift */; };
 		CCDF1464283E68970001BDCF /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF1463283E68970001BDCF /* EnvironmentObject.swift */; };
@@ -44,6 +45,7 @@
 		CC976BFC283CD649000C82B4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		CC976BFE283CD9FE000C82B4 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backround_OverlayView.swift; sourceTree = "<group>"; };
+		CCAD83B828465C0D00044A79 /* Pading_SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pading_SpacerView.swift; sourceTree = "<group>"; };
 		CCDF145F283E687E0001BDCF /* RiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverViewModel.swift; sourceTree = "<group>"; };
 		CCDF1461283E688A0001BDCF /* Input_Event_Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_Event_Modifiers.swift; sourceTree = "<group>"; };
 		CCDF1463283E68970001BDCF /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				CC976BFC283CD649000C82B4 /* ImageView.swift */,
 				CC976C00283D12EB000C82B4 /* Backround_OverlayView.swift */,
 				CC8B6F702843B38C001260A1 /* VStack_ZStack_HStack.swift */,
+				CCAD83B828465C0D00044A79 /* Pading_SpacerView.swift */,
 				CC976BFB283CD5E0000C82B4 /* AddLearning */,
 				CC06F896283675940071966F /* Assets.xcassets */,
 				CC06F898283675940071966F /* Preview Content */,
@@ -215,6 +218,7 @@
 				CC976C01283D12EB000C82B4 /* Backround_OverlayView.swift in Sources */,
 				CC06F8A52837057C0071966F /* ColorView.swift in Sources */,
 				CC8B6F712843B38C001260A1 /* VStack_ZStack_HStack.swift in Sources */,
+				CCAD83B928465C0D00044A79 /* Pading_SpacerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

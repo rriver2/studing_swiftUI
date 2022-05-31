@@ -13,22 +13,22 @@ struct FrameView: View {
 //            minWidth, minHeight    속성값이 자신의 값보다 작아지는 것을 방지
 //            maxWidth, maxHeight    속성값이 자신의 값보다 커지는 것을 방지
 
-//            Text("Hello, World!")
-//                .background(.green)
-//                .frame(width: 150, height: 100, alignment: .bottomLeading)
-//                .background(.blue)
-//                .frame(width: 200, height: 50, alignment: .bottomLeading)
-//                .background(.red)
-//
-//            Text("Hello, World!")
-//                .background(.green)
-//                .frame(width: 150, height: 100, alignment: .topTrailing)
-//                .background(.blue)
-//
-//            Text("Hello, World!")
-//                .background(.green)
-//                .frame(maxWidth: .infinity, alignment: .leading)
-//                .background(.blue)
+            Text("Hello, World!")
+                .background(.green)
+                .frame(width: 150, height: 100, alignment: .bottomLeading)
+                .background(.blue)
+                .frame(width: 200, height: 50, alignment: .bottomLeading)
+                .background(.red)
+
+            Text("Hello, World!")
+                .background(.green)
+                .frame(width: 150, height: 100, alignment: .topTrailing)
+                .background(.blue)
+
+            Text("Hello, World!")
+                .background(.green)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(.blue)
 
             Text("Hello, World!")
                 .background(.green)
